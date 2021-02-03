@@ -5,9 +5,10 @@ interface Box{
    public double getWidth();
    public double getLength();
    public double getArea();
-   public double getManufactureCost();
+   public double getManufactureCost(Join join);
    public Flute getFlute();
     
 
 
 }
+
